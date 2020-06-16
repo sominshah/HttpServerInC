@@ -1,0 +1,1 @@
+gcc -static testHttpServer.c -l httpserver -lfilehandler  -lclientHandler -lhttpApplication -l httpRequestParser  -l httpRequest -l pair -l httpResponse -l singlyList -lhttpWriter -l httpUrlEncoding -l ws2_32  -L ..\lib\. -o testHttpServer.exe
